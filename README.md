@@ -31,18 +31,23 @@ Introduction to GitHub:
 1. Fork and Clone:
 
 A developer forks a repository to their GitHub account and clones it to their local machine.
+
 2. Create a Branch:
 
 The developer creates a new branch for a specific feature or bug fix.
+
 3. Make Changes:
 
 The developer makes changes in their local branch and commits those changes with descriptive messages.
+
 4. Push and Pull Request:
 
 The developer pushes the branch to their GitHub repository and opens a pull request against the original repository.
+
 5. Review and Merge:
 
 Team members review the pull request, provide feedback, and once approved, the changes are merged into the main branch.
+
 6. CI/CD Pipeline:
 
 Automated tests and deployment scripts run to ensure the new changes integrate well with the existing codebase and the project is deployed to the production environment.
