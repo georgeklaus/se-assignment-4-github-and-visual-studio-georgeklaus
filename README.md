@@ -172,9 +172,13 @@ git commit -m "Add new feature")
  2. Open a Pull Request:
  
  -Click on the "Pull Requests" tab.
+ 
  -Click the "New Pull Request" button.
+ 
  -Select the new-feature branch as the source branch and main (or master) as the target branch.
+ 
  -Add a title and description for your pull request.
+ 
  -Click "Create Pull Request."
 
  3. Review and Discussion: Team members review the pull request, provide feedback, and discuss any changes needed.
