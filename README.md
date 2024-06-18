@@ -8,7 +8,7 @@ Answer the following questions based on your understanding of GitHub and Visual 
 Questions:
 Introduction to GitHub:
 
-What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
+What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development. a git hub is bra brah brah....
 Repositories on GitHub:
 
 What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.
