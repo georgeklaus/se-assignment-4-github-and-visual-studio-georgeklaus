@@ -101,8 +101,8 @@ Repositories on GitHub:
 Version Control with Git:
 **Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?**
 
-    Version control is a system that manages changes to documents, programs, and other information stored as computer files.
-    It is crucial for collaborative software development, allowing multiple developers to work on the same project without overwriting each other's work.
+ Version control is a system that manages changes to documents, programs, and other information stored as computer files.
+ It is crucial for collaborative software development, allowing multiple developers to work on the same project without overwriting each other's work.
 
 *Key componets and features of version control in Git*
  
@@ -127,7 +127,7 @@ Version Control with Git:
 
  3. Documentation: GitHub supports Markdown for documentation, making it easy to create and maintain project documentation within the repository. This includes README files, wikis, and other documents that provide context and instructions for the project.
 
- 
+
 
 
 Branching and Merging in GitHub:
