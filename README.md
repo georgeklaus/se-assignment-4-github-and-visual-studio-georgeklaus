@@ -8,19 +8,22 @@ Answer the following questions based on your understanding of GitHub and Visual 
 Questions:
 Introduction to GitHub:
 
-What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.
+**What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.**
+
 Repositories on GitHub:
 
-What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.
+**What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.**
+
 Version Control with Git:
 
-Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?
+**Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?**
+
 Branching and Merging in GitHub:
+**What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch.**
 
-What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch.
 Pull Requests and Code Reviews:
+**What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.**
 
-What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.
 GitHub Actions:
 
 Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.
