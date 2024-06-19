@@ -269,8 +269,91 @@ git commit -m "Add new feature")
 
    -Request changes: Request changes if there are issues that need to be addressed before the PR can be merged.
 
+3. Merge the pull requests
+
+ -Once the changes are approved, and all discussions are resolved, merge the pull request.
+
+ -Click the "Merge pull request" button and confirm the merge.
+
+ -Optionally, delete the branch to keep the repository clean
+
+
+
 GitHub Actions:
 **Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.**
+
+ GitHub Actions is a feature provided by GitHub to automate tasks within the software development lifecycle. It allows developers to create custom workflows that are triggered by various events in a GitHub repository, such as pushes, pull requests, or the creation of issues. 
+
+*How github actions can be used to automate workflows*
+
+ 1. Continuous intergration (CI) - Automatically build and test code changes to ensure that new commits do not break the application.
+
+ 2. Continuous Deployment (CD) - Automatically deploy applications to various environments (staging, production) after passing tests.
+
+ 3. Code Quality Checks - Run static analysis, linting, or other quality checks on the codebase.
+
+ 4. Automated Releases - Automatically create and publish releases based on specific triggers.
+
+ 5. DevOps Automation - Automate infrastructure provisioning and configuration management tasks.
+
+*Example of a Simple CI/CD Pipeline Using GitHub Actions*
+
+ Step 1: Create a GitHub Repository
+
+ -Create a new repository on GitHub or use an existing one.
+
+Step 2: Create a Workflow File
+
+ -Create a directory named .github/workflows in your repository.
+
+ -Inside this directory, create a file named ci.yml.
+
+Step 3: Define the Workflow
+
+Here's an example ci.yml file:
+
+    name: Python CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install flake8 pytest
+
+      - name: Lint code
+        run: flake8 .
+
+      - name: Run tests
+        run: pytest
+
+       
+
+
+
+
+
+
+
 
 Introduction to Visual Studio:
 **What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?**
