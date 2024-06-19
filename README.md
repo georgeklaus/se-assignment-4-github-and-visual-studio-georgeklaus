@@ -346,11 +346,17 @@ jobs:
       - name: Run tests
         run: pytest
 
-       
 
+*How to Implement the Workflow*
 
+ 1. Add the YAML file to your repository:
 
+ -Commit the ci.yml file to the .github/workflows directory in your repository.
+Push the Changes:
 
+ 2. Push the changes to GitHub. 
+ 
+ -The workflow will automatically trigger on the next push to the main branch or any pull request targeting the main branch. 
 
 
 
