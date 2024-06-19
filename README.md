@@ -314,7 +314,7 @@ Here's an example ci.yml file:
 
     name: Python CI Pipeline
 
-on:
+ on:
   push:
     branches:
       - main
