@@ -191,8 +191,16 @@ git commit -m "Add new feature")
  -Confirm the merge by clicking "Confirm merge."
 
 
-Pull Requests and Code Reviews: 
+
+Pull Requests and Code Reviews:
 **What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.**
+
+ *A pull request (PR)* in GitHub is a mechanism for a developer to notify team members that they have completed a feature or bug fix and are requesting that their changes be reviewed and potentially merged into the main codebase. 
+
+ **How pull requests facilitate code reviews and collaboration**
+
+ 
+
 
 GitHub Actions:
 **Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.**
