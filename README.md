@@ -199,8 +199,75 @@ Pull Requests and Code Reviews:
 
  **How pull requests facilitate code reviews and collaboration**
 
- 
+ 1. Discussion and feedback
+   
+ PRs provide a platform for discussion about the changes. Team members can ask questions, provide feedback, and discuss the implementation details which leads to better communication and understanding among members
 
+ 2. Code review process
+
+  Pull requests allow team members to review the changes before they are merged into the main branch by comenting on specific lines and improving on suggestions
+
+ 3. Approval Workflow
+ 
+ Only approved changes get merged into the main branch, ensuring that multiple sets of eyes have vetted the changes. 
+
+ **Steps to create and review pull requests**
+
+ 1. Create a new branch from the main branch for your feature or bug fix using this code,
+     (git checkout -b feature-branch)
+
+ 2. Make your changes in the new branch and commit them using the commands, (git add .
+git commit -m "Add new feature")
+
+ 3. Push the Branch to GitHub: (git push origin feature-branch)
+
+ 4. Open a pull request:
+ 
+ -Navigate to your repository on GitHub.
+ 
+ -Click on the "Pull requests" tab.
+ 
+ -Click the "New pull request" button.
+
+ -Select your feature branch as the source and the main branch as the target.
+
+ -Add a title and description for your pull request. The title should be concise, and the description should provide context about the changes.
+
+ -Click "Create pull request."Navigate to your repository on GitHub.
+
+ -Click on the "Pull requests" tab.
+
+ -Click the "New pull request" button.
+
+ -Select your feature branch as the source and the main branch as the target.
+
+ -Add a title and description for your pull request. The title should be concise, and the description should provide context about the changes.
+
+ -Click "Create pull request."
+
+**Reviewing a pull request**
+
+ 1. Open the Pull Request:
+
+ -Navigate to the repository on GitHub.
+
+ -Click on the "Pull requests" tab.
+
+ -Select the pull request you want to review.
+
+ 2. Review Changes:
+ 
+ -Go through the changes made in the pull request. GitHub shows a diff of what has been added, modified, or deleted.
+
+ -Comment on specific lines if you have questions, suggestions, or need clarification.
+
+ -Use the "Review changes" button to summarize your feedback:
+
+  -Comment: Provide general comments without approving or requesting changes.
+
+  -Approve: Approve the changes if everything looks good.
+
+  -Request changes: Request changes if there are issues that need to be addressed before the PR can be merged.
 
 GitHub Actions:
 **Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.**
