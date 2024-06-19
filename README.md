@@ -263,11 +263,11 @@ git commit -m "Add new feature")
 
  -Use the "Review changes" button to summarize your feedback:
 
-  -Comment: Provide general comments without approving or requesting changes.
+   -Comment: Provide general comments without approving or requesting changes.
 
-  -Approve: Approve the changes if everything looks good.
+   -Approve: Approve the changes if everything looks good.
 
-  -Request changes: Request changes if there are issues that need to be addressed before the PR can be merged.
+   -Request changes: Request changes if there are issues that need to be addressed before the PR can be merged.
 
 GitHub Actions:
 **Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.**
