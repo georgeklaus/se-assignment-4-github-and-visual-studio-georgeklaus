@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/GvXCZgfk)
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=15291762&assignment_repo_type=AssignmentRepo)
+
 # SE-Assignment-4
+
 Assignment: GitHub and Visual Studio
 Instructions:
 Answer the following questions based on your understanding of GitHub and Visual Studio. Provide detailed explanations and examples where appropriate.
@@ -8,8 +10,10 @@ Answer the following questions based on your understanding of GitHub and Visual 
 Questions:
 Introduction to GitHub:
 **What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.**
-    *GitHub is a web-based platform* that uses Git, a distributed version control system,  to manage and track changes in source code during software development. GitHub provides a collaborative environment for developers to share, review, and contribute to projects.
+    *GitHub is a web-based platform* that uses Git, a distributed version control system,  to manage and track changes in source code during software development. GitHub provides a collaborative environment for developers to share, review, and contribute to projects (Zagalsk et al., 2015).
+
         *Primary Functions and Features of GitHub*
+  
   1. Version Control: Commit and History - Tracks changes in the project by capturing snapshots of the project at various points (commits). Each commit has a unique identifier (SHA) and a message describing the changes.
   Branching and Merging: Developers can create branches to work on different features or fixes independently. Once changes are ready, they can be merged back into the main branch.
   2. Collaboration: Pull Requests: A feature that allows developers to notify team members about changes they have pushed to a repository. It facilitates discussion about the changes before they are merged.
@@ -52,13 +56,13 @@ Team members review the pull request, provide feedback, and once approved, the c
 
 Automated tests and deployment scripts run to ensure the new changes integrate well with the existing codebase and the project is deployed to the production environment.
 
-
 Repositories on GitHub:
 **What is a GitHub repository? Describe how to create a new repository and the essential elements that should be included in it.**
 
--A GitHub repository (often referred to as a "repo") is a storage space where your project’s files, including code, documentation, and other related resources, are kept. 
+-A GitHub repository (often referred to as a "repo") is a storage space where your project’s files, including code, documentation, and other related resources, are kept (Perez-Riverol et al., 2016)
 
-*How to create a new repository* 
+*How to create a new repository*
+
  1. Sign In to GitHub: Ensure you have a GitHub account and are logged in.
 
  2. Navigate to the New Repository Page: Click the "+" icon in the top-right corner of the GitHub interface and select "New repository," or directly go to **GitHub New Repository.**
@@ -96,43 +100,38 @@ Repositories on GitHub:
 
  7. CI/CD Configuration Files:
 
-
-
 Version Control with Git:
 **Explain the concept of version control in the context of Git. How does GitHub enhance version control for developers?**
 
  Version control is a system that manages changes to documents, programs, and other information stored as computer files.
- It is crucial for collaborative software development, allowing multiple developers to work on the same project without overwriting each other's work.
+ It is crucial for collaborative software development, allowing multiple developers to work on the same project without overwriting each other's work (Loeliger & McCullough, 2012)
 
 *Key componets and features of version control in Git*
- 
+
  1. Repo: A repository is a directory that contains your project work, including all files and the complete history of changes.
 
  2. Commit: A commit is a snapshot of your project at a given point in time. It records changes to the files, allowing you to track the progress and revert to previous versions if necessary.
 
- 3. Branch: A branch is a parallel version of the repository. It allows you to work on different features or fixes simultaneously. 
+ 3. Branch: A branch is a parallel version of the repository. It allows you to work on different features or fixes simultaneously.
 
  4. Merge: Merging is the process of integrating changes from different branches back into a single branch.
 
- 5. Clone: Cloning a repository means creating a local copy of a remote repository. This allows you to work on the project locally. 
+ 5. Clone: Cloning a repository means creating a local copy of a remote repository. This allows you to work on the project locally.
 
  6. Push and Pull: *Push* sends your local commits to a remote repository. *Pull* fetches and integrates changes from the remote repository into your local repository.
 
-
 *How GitHub Enhances Version Control for Developers*
 
- 1. Centralized Collaboration and pull requets: This central hub facilitates collaboration, making it easier for teams to work together, review each other's code, and maintain a single source of truth moreover, Pull requests are a core feature that lets developers notify team members about changes they've pushed to a branch in a repository. 
+ 1. Centralized Collaboration and pull requets: This central hub facilitates collaboration, making it easier for teams to work together, review each other's code, and maintain a single source of truth moreover, Pull requests are a core feature that lets developers notify team members about changes they've pushed to a branch in a repository.
 
- 2. Code Review and issue tracking: GitHub’s interface makes it easy to review code changes, moreover, gitHub provides a built-in issue tracker to manage bugs, feature requests, and other project tasks. 
+ 2. Code Review and issue tracking: GitHub’s interface makes it easy to review code changes, moreover, gitHub provides a built-in issue tracker to manage bugs, feature requests, and other project tasks.
 
  3. Documentation: GitHub supports Markdown for documentation, making it easy to create and maintain project documentation within the repository. This includes README files, wikis, and other documents that provide context and instructions for the project.
-
-
 
 Branching and Merging in GitHub:
 **What are branches in GitHub, and why are they important? Describe the process of creating a branch, making changes, and merging it back into the main branch.**
 
- Branches in GitHub are parallel versions of a repository that allow multiple lines of development to proceed simultaneously. 
+ Branches in GitHub are parallel versions of a repository that allow multiple lines of development to proceed simultaneously (Zou et al., 2019)
 
  *Importance of Branches*
 
@@ -144,12 +143,11 @@ Branching and Merging in GitHub:
 
  4. History and Traceability: Each branch maintains a history of changes, making it easy to track the development progress and understand the context of each change.
 
-
  *Process of Creating a Branch, Making Changes, and Merging it Back into the Main Branch*
 
  **Step one: creating a branch**
 
- 1. Clone the Repository using the following command, (git clone https://github.com/username/repository.git
+ 1. Clone the Repository using the following command, (git clone <https://github.com/username/repository.git>
 cd repository)
 
  2. Create and Switch to a New Branch using the following command, (git checkout -b new-feature)
@@ -170,15 +168,15 @@ git commit -m "Add new feature")
  1. Navigate to Your Repository on GitHub: Go to the repository page on GitHub.
 
  2. Open a Pull Request:
- 
+
  -Click on the "Pull Requests" tab.
- 
+
  -Click the "New Pull Request" button.
- 
+
  -Select the new-feature branch as the source branch and main (or master) as the target branch.
- 
+
  -Add a title and description for your pull request.
- 
+
  -Click "Create Pull Request."
 
  3. Review and Discussion: Team members review the pull request, provide feedback, and discuss any changes needed.
@@ -186,21 +184,19 @@ git commit -m "Add new feature")
 **Step four: merging the branch**
 
  1. Merge the Pull Request:
- 
+
  -On the pull request page, click the "Merge pull request" button.
  -Confirm the merge by clicking "Confirm merge."
-
-
 
 Pull Requests and Code Reviews:
 **What is a pull request in GitHub, and how does it facilitate code reviews and collaboration? Outline the steps to create and review a pull request.**
 
- *A pull request (PR)* in GitHub is a mechanism for a developer to notify team members that they have completed a feature or bug fix and are requesting that their changes be reviewed and potentially merged into the main codebase. 
+ *A pull request (PR)* in GitHub is a mechanism for a developer to notify team members that they have completed a feature or bug fix and are requesting that their changes be reviewed and potentially merged into the main codebase (Rahman et al., 2014).
 
  **How pull requests facilitate code reviews and collaboration**
 
  1. Discussion and feedback
-   
+
  PRs provide a platform for discussion about the changes. Team members can ask questions, provide feedback, and discuss the implementation details which leads to better communication and understanding among members
 
  2. Code review process
@@ -208,8 +204,8 @@ Pull Requests and Code Reviews:
   Pull requests allow team members to review the changes before they are merged into the main branch by comenting on specific lines and improving on suggestions
 
  3. Approval Workflow
- 
- Only approved changes get merged into the main branch, ensuring that multiple sets of eyes have vetted the changes. 
+
+ Only approved changes get merged into the main branch, ensuring that multiple sets of eyes have vetted the changes.
 
  **Steps to create and review pull requests**
 
@@ -222,11 +218,11 @@ git commit -m "Add new feature")
  3. Push the Branch to GitHub: (git push origin feature-branch)
 
  4. Open a pull request:
- 
+
  -Navigate to your repository on GitHub.
- 
+
  -Click on the "Pull requests" tab.
- 
+
  -Click the "New pull request" button.
 
  -Select your feature branch as the source and the main branch as the target.
@@ -256,7 +252,7 @@ git commit -m "Add new feature")
  -Select the pull request you want to review.
 
  2. Review Changes:
- 
+
  -Go through the changes made in the pull request. GitHub shows a diff of what has been added, modified, or deleted.
 
  -Comment on specific lines if you have questions, suggestions, or need clarification.
@@ -277,12 +273,10 @@ git commit -m "Add new feature")
 
  -Optionally, delete the branch to keep the repository clean
 
-
-
 GitHub Actions:
 **Explain what GitHub Actions are and how they can be used to automate workflows. Provide an example of a simple CI/CD pipeline using GitHub Actions.**
 
- GitHub Actions is a feature provided by GitHub to automate tasks within the software development lifecycle. It allows developers to create custom workflows that are triggered by various events in a GitHub repository, such as pushes, pull requests, or the creation of issues. 
+ GitHub Actions is a feature provided by GitHub to automate tasks within the software development lifecycle. It allows developers to create custom workflows that are triggered by various events in a GitHub repository, such as pushes, pull requests, or the creation of issues (Kinsman et al., 2021)
 
 *How github actions can be used to automate workflows*
 
@@ -346,7 +340,6 @@ jobs:
       - name: Run tests
         run: pytest
 
-
 *How to Implement the Workflow*
 
  1. Add the YAML file to your repository:
@@ -354,16 +347,14 @@ jobs:
  -Commit the ci.yml file to the .github/workflows directory in your repository.
 Push the Changes:
 
- 2. Push the changes to GitHub. 
- 
- -The workflow will automatically trigger on the next push to the main branch or any pull request targeting the main branch. 
+ 2. Push the changes to GitHub.
 
-
+ -The workflow will automatically trigger on the next push to the main branch or any pull request targeting the main branch.
 
 Introduction to Visual Studio:
 **What is Visual Studio, and what are its key features? How does it differ from Visual Studio Code?**
 
- *Visual Studio* is an integrated development environment (IDE) developed by Microsoft. It is designed for developing applications across a variety of platforms, including Windows, Android, iOS, and the web.
+ *Visual Studio* is an integrated development environment (IDE) developed by Microsoft. It is designed for developing applications across a variety of platforms, including Windows, Android, iOS, and the web (Strauss, 2019).
 
  *Features of Visual Studio*
 
@@ -372,13 +363,12 @@ Introduction to Visual Studio:
  2. Code Editing and Navigation - it has advanced code editor with IntelliSense (code completion and suggestion) and also a syntax highlighting and code refactoring tools.
 
  3. Integrated Development Environment - it has a project and solution management for organizing code and resources and also an integrated terminal and command line interface.
- 
+
  -It also supports for version control systems like Git, Subversion, and Team Foundation Version Control.
 
  4. Extensions and Customization - A vast library of extensions and plugins available through the Visual Studio Marketplace.
 
-
-*Visual Studio code* is a lightweight, open-source code editor also developed by Microsoft. It is designed for quick code editing, debugging, and version control tasks. 
+*Visual Studio code* is a lightweight, open-source code editor also developed by Microsoft. It is designed for quick code editing, debugging, and version control tasks (Strauss, 2019)
 
  *Features of Visual Studio Code*
 
@@ -392,15 +382,7 @@ Introduction to Visual Studio:
 
  5. Platform Compatibility - it has a cross-platform support for Windows, macOS, and Linux.
 
-
-
 **Visual Code and Visual Studio code** differs in a way that Visual Studio is a comprehensive IDE designed for large-scale, complex development projects, offering extensive integrated tools and robust debugging features, primarily for Windows, while Visual Studio Code is a lightweight, cross-platform code editor ideal for quick development and debugging, highly customizable with a vast range of extensions, and completely free.
-
-
-
-
-
-
 
 Integrating GitHub with Visual Studio:
 **Describe the steps to integrate a GitHub repository with Visual Studio. How does this integration enhance the development workflow?**
@@ -432,13 +414,13 @@ Integrating GitHub with Visual Studio:
  4. Create a New Repository:
 
  -Open your solution or create a new project in Visual Studio.
- 
+
  -Go to View > Team Explorer.
- 
+
  -In Team Explorer, click on the Home icon and select Sync.
- 
+
  -Click Publish to GitHub.
- 
+
  -Fill in the repository name, description, and visibility settings, then click Publish.
 
  5. Connect an Existing Repository:
@@ -451,7 +433,6 @@ Integrating GitHub with Visual Studio:
 
  -Select GitHub and choose the repository you want to connect to.
 
- 
  **How Integration Enhances the Development Workflow**
 
  1. Integrated Tools - Features such as code suggestions, linting, and debugging are integrated with source control, providing a cohesive development environment.
@@ -462,9 +443,7 @@ Integrating GitHub with Visual Studio:
 
  4. Collaboration - Team members can easily collaborate on projects by sharing code through GitHub. Visual Studio provides tools for code reviews, pull requests, and branching workflows, enhancing collaborative efforts.
 
-
-
-Debugging in Visual Studio: 
+Debugging in Visual Studio:
 **Explain the debugging tools available in Visual Studio. How can developers use these tools to identify and fix issues in their code?**
 
 Visual Studio offers a comprehensive set of debugging tools designed to help developers identify and fix issues in their code efficiently.
@@ -477,10 +456,9 @@ Visual Studio offers a comprehensive set of debugging tools designed to help dev
 
  3. Breakpoints - Developers can set breakpoints by clicking in the margin next to a line of code or pressing F9. Breakpoints pause the execution of the program at a specific line, allowing developers to inspect the current state.
 
- 4. Edit and Continue - Enables developers to make changes to their code during a debugging session and continue running without restarting the application. 
+ 4. Edit and Continue - Enables developers to make changes to their code during a debugging session and continue running without restarting the application.
 
  5. Data Tips - When hovering over a variable during a debugging session, a data tip appears showing the current value of the variable. This quick inspection tool allows developers to see variable values at a glance.
-
 
  *How developers use these tools to identify and fix problems in their codes*
 
@@ -488,52 +466,45 @@ Visual Studio offers a comprehensive set of debugging tools designed to help dev
 
  2. Analyze Call Stack - When an error occurs, examines the call stack to trace back through the function calls. This helps in understanding how the program reached the current state and identifying where things might have gone wrong.
 
- 3. Step Through Code - Uses the Step Over, Step Into, and Step Out commands to execute the code line-by-line or navigate through function calls. 
+ 3. Step Through Code - Uses the Step Over, Step Into, and Step Out commands to execute the code line-by-line or navigate through function calls.
 
  4. Set Breakpoints - Begins by setting breakpoints at suspected points of failure or critical parts of the code. Runs the application in debug mode (F5) and let it pause at these breakpoints.
 
  5. Modify Code During Debugging - Utilizes the Edit and Continue feature to make quick fixes to the code during a debugging session.
 
-
-
-
-
-
-
 Collaborative Development using GitHub and Visual Studio:
 **Discuss how GitHub and Visual Studio can be used together to support collaborative development. Provide a real-world example of a project that benefits from this integration.**
 
-GitHub and Visual Studio offer a powerful combination for collaborative software development. GitHub provides robust version control and project management features, while Visual Studio offers a comprehensive development environment.
+GitHub and Visual Studio offer a powerful combination for collaborative software development. GitHub provides robust version control and project management features, while Visual Studio offers a comprehensive development environment (Zagalsky et al., 2015).
 
  **How GitHub and Visual Studio Support Collaborative Development**
 
  1. Version Control Integration:
- 
+
  Visual Studio seamlessly integrates with GitHub, allowing developers to clone repositories, create branches, commit changes, and push updates directly from the IDE. This ensures all team members are synchronized and simplifies version control.
 
  2. Branching and Merging:
- 
+
  GitHub’s branching model lets multiple developers work on different features or fixes simultaneously. Visual Studio supports branch creation, switching, and merging, helping teams manage parallel development efforts effectively.
 
  3. Project Management:
- 
+
  GitHub Projects and Issues provide tools for task management and tracking. Developers can link commits and pull requests to specific issues, providing clear traceability from code changes to project tasks.
 
  4. Code Reviews and Pull Requests:
- 
+
  Developers can create and manage pull requests from Visual Studio. Pull requests enable team members to review and approve code changes before merging them into the main branch, ensuring code quality.
 
  5. Real-time Collaboration:
- 
- Visual Studio Live Share allows developers to share their development environment with team members in real-time, facilitating pair programming, debugging sessions, and collaborative code reviews.
 
+ Visual Studio Live Share allows developers to share their development environment with team members in real-time, facilitating pair programming, debugging sessions, and collaborative code reviews.
 
 **Real-World Example: Developing a Simple To-Do List App**
 
  *Project: Development of a simple to-do list web application.*
 
  1. Project Setup:
- 
+
  -One developer creates a new repository on GitHub.
 
  -Both developers clone the repository into Visual Studio.
@@ -541,23 +512,22 @@ GitHub and Visual Studio offer a powerful combination for collaborative software
  2. Branching Strategy - Each developer creates a feature branch for their tasks using this code (git checkout -b feature/add-tasks)
 
  3. Development:
- 
+
  -Developers implement their features in Visual Studio, using IntelliSense and debugging tools.
  -Changes are committed and pushed to their branches using these codes (git add .
 git commit -m "Add functionality to create tasks"
 git push origin feature/add-tasks)
 
  4. Pull Requests:
- 
+
  -Developers create pull requests on GitHub to merge their feature branches into the main branch.
 
  -Code reviews are conducted within Visual Studio or on GitHub, and necessary changes are made before approval and merging.
 
  5. Continuous Integration:
- 
+
  -A simple GitHub Actions workflow is set up to automatically run tests whenever changes are pushed or a pull request is created:
 
-  
    name: CI
 
  on: [push, pull_request]
@@ -575,13 +545,12 @@ git push origin feature/add-tasks)
     - run: npm install
     - run: npm test
 
-
  6. Real-time Collaboration:
- 
+
  -During development, one developer encounters a bug. They initiate a Live Share session from Visual Studio, allowing the other developer to join and help debug in real-time.
 
  7. Project Management:
- 
+
  -The developers use GitHub Issues to track bugs and feature requests. Each issue is linked to pull requests and commits, providing visibility into the development process.
 
  **Benefits of Integration**
@@ -594,9 +563,22 @@ git push origin feature/add-tasks)
 
  -Visibility and Traceability: Linking commits and pull requests to issues provides a clear audit trail, improving project transparency.
 
-
-
 **Refferences**
+
+Zagalsky, A., Feliciano, J., Storey, M. A., Zhao, Y., & Wang, W. (2015, February). The emergence of github as a collaborative platform for education. In Proceedings of the 18th ACM conference on computer supported cooperative work & social computing (pp. 1906-1917).
+
+Perez-Riverol, Y., Gatto, L., Wang, R., Sachsenberg, T., Uszkoreit, J., Leprevost, F. D. V., ... & Vizcaíno, J. A. (2016). Ten simple rules for taking advantage of Git and GitHub. PLoS computational biology, 12(7), e1004947.
+
+Loeliger, J., & McCullough, M. (2012). Version Control with Git: Powerful tools and techniques for collaborative software development. " O'Reilly Media, Inc.".
+
+Zou, W., Zhang, W., Xia, X., Holmes, R., & Chen, Z. (2019, July). Branch use in practice: A large-scale empirical study of 2,923 projects on github. In 2019 IEEE 19th International Conference on Software Quality, Reliability and Security (QRS) (pp. 306-317). IEEE.
+
+Rahman, M. M., & Roy, C. K. (2014, May). An insight into the pull requests of github. In Proceedings of the 11th working conference on mining software repositories (pp. 364-367).
+
+Kinsman, T., Wessel, M., Gerosa, M. A., & Treude, C. (2021, May). How do software developers use github actions to automate their workflows?. In 2021 IEEE/ACM 18th International Conference on Mining Software Repositories (MSR) (pp. 420-431). IEEE.
+
+Strauss, D. (2019). Getting Started with Visual Studio 2019: Learning and Implementing New Features. Apress.
+
 
 Submission Guidelines:
 Your answers should be well-structured, concise, and to the point.
