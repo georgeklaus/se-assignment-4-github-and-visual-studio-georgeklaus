@@ -12,7 +12,7 @@ Introduction to GitHub:
 **What is GitHub, and what are its primary functions and features? Explain how it supports collaborative software development.**
     *GitHub is a web-based platform* that uses Git, a distributed version control system,  to manage and track changes in source code during software development. GitHub provides a collaborative environment for developers to share, review, and contribute to projects (Zagalsk et al., 2015).
 
-        *Primary Functions and Features of GitHub*
+   *Primary Functions and Features of GitHub*
   
   1. Version Control: Commit and History - Tracks changes in the project by capturing snapshots of the project at various points (commits). Each commit has a unique identifier (SHA) and a message describing the changes.
   Branching and Merging: Developers can create branches to work on different features or fixes independently. Once changes are ready, they can be merged back into the main branch.
