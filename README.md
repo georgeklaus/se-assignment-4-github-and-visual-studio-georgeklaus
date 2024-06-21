@@ -525,10 +525,7 @@ GitHub and Visual Studio offer a powerful combination for collaborative software
 
  5. Real-time Collaboration:
  
- Visual Studio Live Share allows developers to share their development environment with team members in real-time, facilitating pair programming, debugging sessions, and collaborative code reviews.
-
-
-
+ Visual Studio Live Share allows developers to share their development environment with team members in real-time, facilitating pair programming, debugging sessions, and collaborative code reviews
 
 
 **Refferences**
