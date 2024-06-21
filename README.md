@@ -557,11 +557,12 @@ git push origin feature/add-tasks)
  
  -A simple GitHub Actions workflow is set up to automatically run tests whenever changes are pushed or a pull request is created:
 
-  name: CI
+  
+   name: CI
 
-on: [push, pull_request]
+ on: [push, pull_request]
 
-jobs:
+ jobs:
   build:
     runs-on: ubuntu-latest
 
